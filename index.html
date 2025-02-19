@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch API Methods</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+    </style>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- <h1>Fetch GET, POST DELETE</h1>
+    <button id="fetch-button">Initial Fetch</button> -->
+    <section id="data-container">
+        <div id="form-container">
+            <h1>Create Post</h1>
+            <form id="post-form">
+                <input type="text" id="image" placeholder="Image URL">
+                <input type="text" id="title" placeholder="Title">
+                <input type="text" id="description" placeholder="Description">
+                <button type="submit">Create Post</button>
+            </form>
+            <button id="fetch-button">List Posts</button>
+        </div>
+        <div id="posts-container" style="display: none;">
+            <div id="posts-container__header">
+                <h1>Posts</h1>
+                <button id="create-btn">Create Post</button>
+            </div>
+            <ul id="posts-container__post-list"></ul>
+        </div>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+</html>
